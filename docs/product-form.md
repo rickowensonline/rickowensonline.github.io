@@ -95,7 +95,7 @@ nav_order: 99
 <label><b>FULL FABRIC DESCRIPTION</b> (AS PER LABEL)</label><br>
 <textarea name="fabric_full"></textarea><br>
 <br>
-<label><b>COLOR</b></label>
+<label><b>COLOR</b></label><br>
 <select id="colors" name="colors">
   <option value="01">01 | WHITE</option>
   <option value="01A">01A | WHITE WAX</option>
