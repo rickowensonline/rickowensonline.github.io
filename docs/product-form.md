@@ -9,10 +9,10 @@ nav_order: 99
   method="POST"
 >
 
-<label><b>NAME OF ITEM</b> (AS PER ACTUAL TAG AND/OR RICKOWENS.EU ONLY)</label>
-<input type="text" name="item_name">
-
-<label><b>LINE</b> (FIRST TWO LETTERS)</label>
+<label><b>NAME OF ITEM</b> (AS PER ACTUAL TAG AND/OR RICKOWENS.EU ONLY)</label><br>
+<input type="text" name="item_name"><br>
+<br>
+<label><b>LINE</b> (FIRST TWO LETTERS)</label><br>
 <select id="lines" name="lines">
   <option value="BK">BK | BOOKS</option>
   <option value="BM">BM | BIRKENSTOCK MEN</option>
@@ -33,9 +33,9 @@ nav_order: 99
   <option value="VM">VM | VEJA MEN</option>
   <option value="VW">VW | VEJA WOMEN</option>
   <option value="NX">NX | SHOES</option>
-</select>
-
-<label><b>SEASON</b> (CHARACTERS 3-5)</label>
+</select><br>
+<br>
+<label><b>SEASON</b> (CHARACTERS 3-5)</label><br>
 <select id="seasons" name="seasons">
   <option value="00M">00M | FOREVER MEN</option>
   <option value="00W">00W | FOREVER WOMEN</option>
@@ -84,17 +84,17 @@ nav_order: 99
   <option value="19F">19F | LARRY</option>
   <option value="20S">20S | TECUATL</option>
   <option value="20F">20F | PERFORMA</option>
-</select>
-
-<label><b>ITEM CODE</b> (4-DIGIT CODE AFTER SEASON)</label>
-<input type="text" name="code">
-
-<label><b>FABRIC CODE</b> (SEPARATED BY - OR / SIGN)</label>
-<input type="text" name="fabric">
-
-<label><b>FULL FABRIC DESCRIPTION</b> (AS PER LABEL)</label>
-<textarea name="fabric_full"></textarea>
-
+</select><br>
+<br>
+<label><b>ITEM CODE</b> (4-DIGIT CODE AFTER SEASON)</label><br>
+<input type="text" name="code"><br>
+<br>
+<label><b>FABRIC CODE</b> (SEPARATED BY - OR / SIGN)</label><br>
+<input type="text" name="fabric"><br>
+<br>
+<label><b>FULL FABRIC DESCRIPTION</b> (AS PER LABEL)</label><br>
+<textarea name="fabric_full"></textarea><br>
+<br>
 <label><b>COLOR</b></label>
 <select id="colors" name="colors">
   <option value="01">01 | WHITE</option>
@@ -151,10 +151,10 @@ nav_order: 99
   <option value="91">91 | ZEBRA</option>
   <option value="99">99 | BLACK WAX</option>
   <option value="OTH">OTHER</option>
-</select>
-
-<label><b>OTHER COLOR</b> (IF NOT IN LIST)</label>
-<input type="text" name="color_other">​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
-
-<button type="submit">SUBMIT ENTRY</button>
+</select><br>
+<br>
+<label><b>OTHER COLOR</b> (IF NOT IN LIST)</label><br>
+<input type="text" name="color_other">​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​<br>
+<br>
+<button type="submit">SUBMIT ENTRY</button><br>
 </form>
