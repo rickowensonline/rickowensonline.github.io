@@ -1,19 +1,25 @@
 ---
 layout: default
-title: PRODUCT CODE SUBMISSION FORM
+title: PRODUCT CODE FORM
 nav_order: 99
 ---
 
+# ADD A PRODUCT CODE
+
+THIS FORM IS BEING USED BY THE OWENSWIKI DEVELOPERS TO COMPILE A RECORD OF RICK OWENS PRODUCT CODES WHICH IS AS COMPLETE AND ACCURATE AS POSSIBLE. ALL SUBMISSIONS ARE ENCOURAGED!
+
+PLEASE ONLY SUBMIT CODES AND INFORMATION FROM PRODUCTS YOU OWN AND/OR HAVE A VERIFIABLE SOURCE OF INFORMATION FROM.
+<br><br>
 <form
   action="https://formspree.io/xwkrqdly"
   method="POST"
 >
 
 <label><b>NAME OF ITEM</b> (AS PER ACTUAL TAG AND/OR RICKOWENS.EU ONLY)</label><br>
-<input type="text" name="item_name"><br>
+<input type="text" name="NAME"><br>
 <br>
 <label><b>LINE</b> (FIRST TWO LETTERS)</label><br>
-<select id="lines" name="lines">
+<select id="LINE" name="LINE">
   <option value="BK">BK | BOOKS</option>
   <option value="BM">BM | BIRKENSTOCK MEN</option>
   <option value="BW">BW | BIRKENSTOCK WOMEN</option>
@@ -36,7 +42,7 @@ nav_order: 99
 </select><br>
 <br>
 <label><b>SEASON</b> (CHARACTERS 3-5)</label><br>
-<select id="seasons" name="seasons">
+<select id="SEASON" name="SEASON">
   <option value="00M">00M | FOREVER MEN</option>
   <option value="00W">00W | FOREVER WOMEN</option>
   <option value="98F">98F | FW98 MONSTERS</option>
@@ -87,16 +93,16 @@ nav_order: 99
 </select><br>
 <br>
 <label><b>ITEM CODE</b> (4-DIGIT CODE AFTER SEASON)</label><br>
-<input type="text" name="code"><br>
+<input type="text" name="CODE"><br>
 <br>
 <label><b>FABRIC CODE</b> (SEPARATED BY - OR / SIGN)</label><br>
-<input type="text" name="fabric"><br>
+<input type="text" name="FABRIC"><br>
 <br>
 <label><b>FULL FABRIC DESCRIPTION</b> (AS PER LABEL)</label><br>
-<textarea name="fabric_full"></textarea><br>
+<textarea name="FABRIC_FULL" style="width:400px; height:200px;"></textarea><br>
 <br>
 <label><b>COLOR</b></label><br>
-<select id="colors" name="colors">
+<select id="COLOR" name="COLOR">
   <option value="01">01 | WHITE</option>
   <option value="01A">01A | WHITE WAX</option>
   <option value="01C">01C | WHITE WAX COLLAGE</option>
@@ -154,7 +160,7 @@ nav_order: 99
 </select><br>
 <br>
 <label><b>OTHER COLOR</b> (IF NOT IN LIST)</label><br>
-<input type="text" name="color_other">​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​<br>
+<input type="text" name="COLOR_OTHER">​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​<br>
 <br>
 <button type="submit">SUBMIT ENTRY</button><br>
 </form>

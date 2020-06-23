@@ -2,7 +2,7 @@
 // Typography
 //
 
-$body-font-family: -apple-system, 'arial', source-sans-pro, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$body-font-family: 'Inconsolata', 'arial', source-sans-pro, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $mono-font-family: "SFMono-Regular", Menlo, Consolas, Monospace !default;
 $root-font-size: 16px !default; // Base font-size for rems
 $body-line-height: 1.4 !default;
@@ -65,6 +65,13 @@ $link-color: $purple-000 !default;
 $btn-primary-color: $purple-100 !default;
 $base-button-color: #f7f7f7 !default;
 
+$spanish-gray: #939393ff;
+$dim-gray: #6e6e6eff;
+$davys-grey: #4c4c4cff;
+$eerie-black: #1f1f1fff;
+$rick-black: #101010;
+$rich-black-fogra-39: #0a0a0aff;
+
 //
 // Spacing
 //
@@ -110,8 +117,8 @@ $border-color: $grey-lt-100 !default;
 
 $gutter-spacing: $sp-6 !default;
 $gutter-spacing-sm: $sp-4 !default;
-$nav-width: 264px !default;
-$nav-width-md: 248px !default;
+$nav-width: 270px !default;
+$nav-width-md: 270px !default;
 $content-width: 800px !default;
 $header-height: 60px !default;
 $search-results-width: 500px !default;
