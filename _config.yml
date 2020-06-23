@@ -1,0 +1,30 @@
+title: O W E N S W I K I
+description: WIKI FOR ALL THINGS RICK OWENS
+baseurl: "/"
+url: "https://rickowensonline.github.io"
+remote_theme: pmarsceill/just-the-docs
+
+permalink: pretty
+exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
+
+search_enabled: true
+search_tokenizer_separator: /[\s/]+/
+heading_anchors: true
+aux_links:
+  "SOURCE":
+    - "//github.com/rickowensonline/rickowenswiki"
+
+# Footer content appears at the bottom of every page's main content
+footer_content: "OWENSWIKI | RUNNING ON <a href=\"https://github.com/jekyll/jekyll\">JEKYLL</a>/<a href=\"https://github.com/pmarsceill/just-the-docs\">JUSTTHEDOCS</a> | HOSTED ON <a href=\"https://github.com/rickowensonline/rickowensonline.github.io\">GITHUB PAGES</a>"
+color_scheme: dark
+
+plugins:
+  - jekyll-seo-tag
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
