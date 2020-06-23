@@ -254,6 +254,7 @@ input,
 optgroup,
 select,
 textarea {
+  background-color: $grey-dk-000;
   color: inherit; /* 1 */
   font: inherit; /* 2 */
   margin: 0; /* 3 */

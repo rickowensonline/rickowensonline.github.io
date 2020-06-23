@@ -12,7 +12,7 @@ search_tokenizer_separator: /[\s/]+/
 heading_anchors: true
 aux_links:
   "SOURCE":
-    - "//github.com/rickowensonline/rickowenswiki"
+    - "//github.com/rickowensonline/rickowensonline.github.io"
 
 # Footer content appears at the bottom of every page's main content
 footer_content: "OWENSWIKI | RUNNING ON <a href=\"https://github.com/jekyll/jekyll\">JEKYLL</a>/<a href=\"https://github.com/pmarsceill/just-the-docs\">JUSTTHEDOCS</a> | HOSTED ON <a href=\"https://github.com/rickowensonline/rickowensonline.github.io\">GITHUB PAGES</a>"
