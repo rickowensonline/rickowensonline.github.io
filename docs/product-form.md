@@ -10,6 +10,18 @@ THIS FORM IS BEING USED BY THE OWENSWIKI DEVELOPERS TO COMPILE A RECORD OF RICK 
 
 PLEASE ONLY SUBMIT CODES AND INFORMATION FROM PRODUCTS YOU OWN AND/OR HAVE A VERIFIABLE SOURCE OF INFORMATION FROM.
 <br><br>
+
+<script type="text/javascript">
+function checkvalue(val,id)
+{
+    if(val==="OTH")
+       document.getElementById(id).style.display='block';
+    else
+       document.getElementById(id).style.display='none'; 
+}
+</script>
+
+
 <form
   action="https://formspree.io/xwkrqdly"
   method="POST"
@@ -19,7 +31,7 @@ PLEASE ONLY SUBMIT CODES AND INFORMATION FROM PRODUCTS YOU OWN AND/OR HAVE A VER
 <input type="text" name="NAME"><br>
 <br>
 <label><b>LINE</b> (FIRST TWO LETTERS)</label><br>
-<select id="LINE" name="LINE">
+<select name="LINE" onchange='checkvalue(this.value,"LINE")'>
   <option value="BK">BK | BOOKS</option>
   <option value="BM">BM | BIRKENSTOCK MEN</option>
   <option value="BW">BW | BIRKENSTOCK WOMEN</option>
@@ -39,10 +51,11 @@ PLEASE ONLY SUBMIT CODES AND INFORMATION FROM PRODUCTS YOU OWN AND/OR HAVE A VER
   <option value="VM">VM | VEJA MEN</option>
   <option value="VW">VW | VEJA WOMEN</option>
   <option value="NX">NX | SHOES</option>
-</select><br>
+  <option value="OTH">OTHER</option>
+</select><br><input type="text" placeholder="CODE | LINE" name="LINE" id="LINE" style='display:none'/>
 <br>
 <label><b>SEASON</b> (CHARACTERS 3-5)</label><br>
-<select id="SEASON" name="SEASON">
+<select onchange='checkvalue(this.value,"SEASON")' name="SEASON">
   <option value="00M">00M | FOREVER MEN</option>
   <option value="00W">00W | FOREVER WOMEN</option>
   <option value="98F">98F | FW98 MONSTERS</option>
@@ -90,7 +103,8 @@ PLEASE ONLY SUBMIT CODES AND INFORMATION FROM PRODUCTS YOU OWN AND/OR HAVE A VER
   <option value="19F">19F | LARRY</option>
   <option value="20S">20S | TECUATL</option>
   <option value="20F">20F | PERFORMA</option>
-</select><br>
+  <option value="OTH">OTHER</option>
+</select><br><input type="text" placeholder="CODE | SEASON" name="SEASON" id="SEASON" style='display:none'/>
 <br>
 <label><b>ITEM CODE</b> (4-DIGIT CODE AFTER SEASON)</label><br>
 <input type="text" name="CODE"><br>
@@ -102,7 +116,7 @@ PLEASE ONLY SUBMIT CODES AND INFORMATION FROM PRODUCTS YOU OWN AND/OR HAVE A VER
 <textarea name="FABRIC_FULL" style="width:400px; height:200px;"></textarea><br>
 <br>
 <label><b>COLOR</b></label><br>
-<select id="COLOR" name="COLOR">
+<select onchange='checkvalue(this.value,"COLOR")' name="COLOR">
   <option value="01">01 | WHITE</option>
   <option value="01A">01A | WHITE WAX</option>
   <option value="01C">01C | WHITE WAX COLLAGE</option>
@@ -157,10 +171,7 @@ PLEASE ONLY SUBMIT CODES AND INFORMATION FROM PRODUCTS YOU OWN AND/OR HAVE A VER
   <option value="91">91 | ZEBRA</option>
   <option value="99">99 | BLACK WAX</option>
   <option value="OTH">OTHER</option>
-</select><br>
-<br>
-<label><b>OTHER COLOR</b> (IF NOT IN LIST)</label><br>
-<input type="text" name="COLOR_OTHER">​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​<br>
+</select><br><input type="text" placeholder="CODE | COLOR" name="COLOR" id="COLOR" style='display:none'/>
 <br>
 <button type="submit">SUBMIT ENTRY</button><br>
 </form>
