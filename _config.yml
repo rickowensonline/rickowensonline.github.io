@@ -2,7 +2,7 @@ title: OWENSWIKI
 description: WIKI FOR ALL THINGS RICK OWENS
 baseurl: "/"
 url: "https://rickowensonline.github.io"
-remote_theme: pmarsceill/just-the-docs
+#remote_theme: pmarsceill/just-the-docs
 
 permalink: pretty
 exclude: [
