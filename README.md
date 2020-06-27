@@ -1,4 +1,4 @@
-![RICK OWENS]({{site.url}}/assets/images/rick_home.jpg )
+![RICK OWENS]( assets/images/rick_home.jpg )
 
 ## 'THE ACT OF CREATION IS YOUR FIGHT FOR IMMORTALITY.' - RICK OWENS
 

@@ -1,10 +1,12 @@
 ---
 layout: default
-title: HOME PAGE
+title: HOME
 nav_order: 1
-description: "RICKOWENS.WIKI"
+description: "OWENSWIKI"
 permalink: /
 ---
+
+# RICKOWENS.WIKI
 
 ![RICK OWENS]({{site.url}}/assets/images/rick_home.jpg )
 
