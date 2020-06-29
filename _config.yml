@@ -6,6 +6,7 @@ url: "https://rickowens.wiki"
 
 permalink: pretty
 exclude: [
+  docs/Home.md,
   olddocs/,
   node_modules/,
   '*.gemspec',
