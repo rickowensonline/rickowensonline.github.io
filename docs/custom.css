@@ -6,8 +6,8 @@
   --mono-font-family: "SFMono-Regular", Menlo, Consolas, Monospace;
   --root-font-size: 16px;
   --body-line-height: 1.4;
-  --content-line-height: 1.5;
-  --body-heading-line-height: 1.15;
+  --content-line-height: 1.4;
+  --body-heading-line-height: 1.4;
 
   /* colors */
   --grey-dk-000: #959396;
@@ -2038,7 +2038,7 @@ output {
   padding: 8px 12px;
   font-size: var(--root-font-size);
   line-height: var(--body-line-height);
-  color: var(--dust);
+  color: #fff;
   vertical-align: middle;
   background-color: var(--black-mineral);
   background-image: none;
@@ -5293,7 +5293,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   margin-left: -1px;
   line-height: 1.428571429;
   text-decoration: none;
-  background-color: #ffffff;
+  background-color: var(--rick-black);
   border: 1px solid #dddddd;
 }
 
@@ -5338,7 +5338,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .pagination > .disabled > a:focus {
   color: #b3b3b3;
   cursor: not-allowed;
-  background-color: #ffffff;
+  background-color: var(--black-mineral);
   border-color: #dddddd;
 }
 
@@ -5470,7 +5470,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .pager .disabled > span {
   color: #b3b3b3;
   cursor: not-allowed;
-  background-color: #ffffff;
+  background-color: var(--black-mineral);
 }
 
 .label {
@@ -7674,9 +7674,24 @@ p {
   height: 2.2em;
 }
 
+#gollum-dialog-dialog-inner {
+  color: var(--dna-dust);
+  background-color: var(--fogra-black);
+}
+#gollum-dialog-dialog-inner h4, #gollum-dialog-dialog-body fieldset .field label {
+  color: var(--dna-dust);
+}
+
 #gollum-dialog-dialog-bg {
   margin-bottom: 1em;
   height: 99.3%;
+}
+
+#gollum-editor #gollum-editor-function-bar #gollum-editor-format-selector {
+  text-align: left;
+  padding-left: 1em;
+  margin-left: 1em;
+  clear: both;
 }
 
 #results ol li a {
@@ -7734,6 +7749,59 @@ blockquote p {
     border-radius: 3px
 }
 
+.Box-row--hover-gray:hover {
+    background-color: var(--black-mineral);
+}
+
 path {
   fill: var(--dna-dust);
+}
+
+.pagination a, .pagination span, .pagination em {
+    position: relative;
+    float: left;
+    padding: 7px 12px;
+    margin-left: -1px;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    color: #fff;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: var(--black-mineral);
+    border: 1px solid #e1e4e8;
+}
+
+.pagination .gap, .pagination .disabled, .pagination .gap:hover, .pagination .disabled:hover {
+    color: var(--dark-dust);
+    cursor: default;
+    background-color: var(--rick-black);
+}
+
+.pagination a:hover, .pagination a:focus, .pagination span:hover, .pagination span:focus, .pagination em:hover, .pagination em:focus {
+    z-index: 2;
+    text-decoration: none;
+    background-color: var(--dust);
+    border-color: #e1e4e8
+}
+
+.ace-tomorrow .ace_marker-layer .ace_active-line {
+    background-color: var(--grey-dk-250);
+    color: #4D4D4C;
+}
+
+.ace-tomorrow .ace_print-margin {
+    width: 1px;
+    background: var(--grey-dk-300);
+}
+
+.ace-tomorrow .ace_heading,
+.ace-tomorrow .ace_markup.ace_heading,
+.ace-tomorrow .ace_string {
+    color: var(--dna-dust);
 }
