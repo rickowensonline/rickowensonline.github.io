@@ -7733,3 +7733,7 @@ blockquote p {
     border: 1px solid #d1d5da;
     border-radius: 3px
 }
+
+path {
+  fill: var(--dna-dust);
+}
