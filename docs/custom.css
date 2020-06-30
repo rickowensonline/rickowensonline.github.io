@@ -2796,6 +2796,7 @@ input[type="button"].btn-block {
 }
 
 .glyphicon {
+  color: var(--dna-dust);
   position: relative;
   top: 1px;
   display: inline-block;
@@ -7725,4 +7726,10 @@ div.breadcrumb {
 
 blockquote p {
   font-size: 1em;
+}
+
+.Box {
+    background-color: var(--fogra-black);
+    border: 1px solid #d1d5da;
+    border-radius: 3px
 }
