@@ -30,6 +30,9 @@ function checkvalue(val,id)
 <label><b>NAME OF ITEM</b> (AS PER ACTUAL TAG AND/OR RICKOWENS.EU ONLY)</label><br>
 <input type="text" name="NAME"><br>
 <br>
+<label><b>FULL PRODUCT CODE</b> (AS PER ACTUAL TAG)</label><br>
+<input type="text" name="NAME"><br>
+<br>
 <label><b>LINE</b> (FIRST TWO LETTERS)</label><br>
 <select name="LINE" onchange='checkvalue(this.value,"LINE")'>
   <option value="BK">BK | BOOKS</option>
@@ -42,7 +45,9 @@ function checkvalue(val,id)
   <option value="DU">DU | DRKSHDW MEN</option>
   <option value="HV">HV | HUNRICKOWENS</option>
   <option value="LI">LI | RICK OWENS LILIES</option>
+  <option value="LI">MU | RICK OWENS x MONCLER</option>
   <option value="RA">RA | ACCESSORIES</option>
+  <option value="RG">RG | GLASSES</option>
   <option value="RF">RF | RICK OWENS</option>
   <option value="RO">RO | OFF-THE-RUNWAY WOMEN</option>
   <option value="RP">RP | MAINLINE WOMEN</option>
@@ -54,7 +59,7 @@ function checkvalue(val,id)
   <option value="OTH">OTHER</option>
 </select><br><input type="text" placeholder="CODE | LINE" name="LINE" id="LINE" style='display:none'/>
 <br>
-<label><b>SEASON</b> (CHARACTERS 3-5)</label><br>
+<label><b>SEASON</b> (PRESENT ON TAG FROM FW13 ONWARDS)</label><br>
 <select onchange='checkvalue(this.value,"SEASON")' name="SEASON">
   <option value="00M">00M | FOREVER MEN</option>
   <option value="00W">00W | FOREVER WOMEN</option>
@@ -75,7 +80,8 @@ function checkvalue(val,id)
   <option value="05F">05F | MOOG</option>
   <option value="06S">06S | TUNGSTEN</option>
   <option value="06F">06F | DUSTULATOR</option>
-  <option value="07S">07S | WISHBONE</option>
+  <option value="07S">07SW | WISHBONE</option>
+  <option value="07S">07SM | DRAKE</option>
   <option value="07F">07F | EXPLODER</option>
   <option value="08S">08S | CREATCH</option>
   <option value="08F">08F | STAG</option>
@@ -103,6 +109,8 @@ function checkvalue(val,id)
   <option value="19F">19F | LARRY</option>
   <option value="20S">20S | TECUATL</option>
   <option value="20F">20F | PERFORMA</option>
+  <option value="20S">21S | PHLEGETHON</option>
+  <option value="20F">21F | GETHSEMANE</option>
   <option value="OTH">OTHER</option>
 </select><br><input type="text" placeholder="CODE | SEASON" name="SEASON" id="SEASON" style='display:none'/>
 <br>
@@ -115,63 +123,11 @@ function checkvalue(val,id)
 <label><b>FULL FABRIC DESCRIPTION</b> (AS PER LABEL)</label><br>
 <textarea name="FABRIC_FULL" style="width:400px; height:200px;"></textarea><br>
 <br>
-<label><b>COLOR</b></label><br>
-<select onchange='checkvalue(this.value,"COLOR")' name="COLOR">
-  <option value="01">01 | WHITE</option>
-  <option value="01A">01A | WHITE WAX</option>
-  <option value="01C">01C | WHITE WAX COLLAGE</option>
-  <option value="02">02 | GOLD</option>
-  <option value="03">03 | CHERRY</option>
-  <option value="04">04 | BROWN</option>
-  <option value="06">06 | BLUE</option>
-  <option value="08">08 | PEARL</option>
-  <option value="09">09 | BLACK</option>
-  <option value="099">099 | BLACK</option>
-  <option value="09C">09C | BLACK/PEARL/MILK</option>
-  <option value="09W">09W | BLACK/WHITE</option>
-  <option value="0A">0A | UXMAL</option>
-  <option value="108">108 | BLACK/PEARL</option>
-  <option value="11">11 | MILK</option>
-  <option value="110">110 | CHALK</option>
-  <option value="113">113 | TANGERINE</option>
-  <option value="12">12 | LEMON</option>
-  <option value="128">128 | SILVER</option>
-  <option value="128">128 | SILVER</option>
-  <option value="133">133 | CARDINAL</option>
-  <option value="156">156 | IRIDESCENT</option>
-  <option value="178">178 | MELANGE</option>
-  <option value="18">18 | SILVER</option>
-  <option value="18">18 | SILVER</option>
-  <option value="181A">181A | SILVER/MILK</option>
-  <option value="183">183 | POP PINK</option>
-  <option value="189A">189A | SILVER/BLACK</option>
-  <option value="189R">189R | SILVER/BLACK</option>
-  <option value="21">21 | NATURAL</option>
-  <option value="22">22 | YELLOW</option>
-  <option value="24">24 | BARK</option>
-  <option value="25">25 | MUSTARD</option>
-  <option value="29">29 | RAW BLUE</option>
-  <option value="29">29 | RAW INDIGO</option>
-  <option value="32">32 | CORNSILK</option>
-  <option value="33">33 | ROSE</option>
-  <option value="34">34 | DUST</option>
-  <option value="3T">3T | CLEAR RED</option>
-  <option value="46">46 | POWDER BLUE</option>
-  <option value="53">53 | ORANGE</option>
-  <option value="54">54 | CHAMPAGNE</option>
-  <option value="58">58 | GREY</option>
-  <option value="61">61 | OYSTER</option>
-  <option value="64">64 | BLOOD DARK RED</option>
-  <option value="75">75 | FOREST</option>
-  <option value="78">78 | DARK DUST</option>
-  <option value="84">84 | BRONZE</option>
-  <option value="8484A">8484A | BRONZE/ANTIQUE BRONZE</option>
-  <option value="84A">84A | ANTIQUE BRONZE</option>
-  <option value="88">88 | CHARCOAL</option>
-  <option value="91">91 | ZEBRA</option>
-  <option value="99">99 | BLACK WAX</option>
-  <option value="OTH">OTHER</option>
-</select><br><input type="text" placeholder="CODE | COLOR" name="COLOR" id="COLOR" style='display:none'/>
+<label><b>COLOR CODE</b> (ENDING DIGITS BEFORE COLOR NAME)</label><br>
+<input type="text" name="COLOR_CODE"><br>
+<br>
+<label><b>COLOR NAME(S)</b> (SEPARATED BY / SIGNS; PLEASE MAKE BEST GUESS IF 'AS SAMPLE' IS LISTED)</label><br>
+<input type="text" name="COLOR"><br>
 <br>
 <button type="submit">SUBMIT ENTRY</button><br>
 </form>
