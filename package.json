@@ -10,7 +10,7 @@
     "kind-of": ">=6.0.3",
     "minimist": ">=0.2.1",
     "prettier": "^2.0.5",
-    "set-value": ">=2.0.1",
+    "set-value": ">=4.0.1",
     "stylelint": "^13.3.3",
     "stylelint-config-prettier": "^8.0.1",
     "stylelint-config-primer": "^9.0.0",
