@@ -11,7 +11,7 @@
     "minimist": ">=0.2.1",
     "prettier": "^2.5.1",
     "set-value": ">=4.0.1",
-    "stylelint": "^13.3.3",
+    "stylelint": "^13.13.1",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-primer": "^9.0.0",
     "stylelint-prettier": "^1.2.0",
