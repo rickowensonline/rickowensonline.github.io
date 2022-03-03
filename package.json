@@ -9,7 +9,7 @@
     "@primer/css": "^19.4.0",
     "kind-of": ">=6.0.3",
     "minimist": ">=0.2.1",
-    "prettier": "^2.0.5",
+    "prettier": "^2.5.1",
     "set-value": ">=4.0.1",
     "stylelint": "^13.3.3",
     "stylelint-config-prettier": "^8.0.1",
