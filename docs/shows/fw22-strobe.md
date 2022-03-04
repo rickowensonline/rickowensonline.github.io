@@ -7,7 +7,7 @@ nav_order: 40
 
 # FW22 STROBE
 
-{% imagesize /assets/images/fw22-m.jpg:img?width=350 alt='FW22 STROBE MENS' %}{: style="float: right"}
+![FW22 STROBE MEN'S](/assets/images/fw22-m.jpg){: width="350" }{: style="float: right"}
 ## MEN
 
 ### INFO
@@ -56,7 +56,7 @@ BECAUSE DOESN'T EVERY GUY WANNA BE REMEMBERED AS A HEROIC WIZARD STANDING ON A C
 
 
 ---
-{% imagesize /assets/images/fw22-w.jpg:img?width=350 alt='FW22 STROBE WOMENS' %}{: style="float: right"}
+![FW22 STROBE WOMEN'S](/assets/images/fw22-w.jpg){: width="350" }{: style="float: right"}
 ## WOMEN
 
 ### INFO

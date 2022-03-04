@@ -7,7 +7,7 @@ nav_order: 38
 
 # FW21 GETHSEMANE
 
-{% imagesize /assets/images/fw21-m.jpg:img?width=350 alt='FW21 GETHSEMANE MENS' %}{: style="float: right"}
+![FW21 GETHSEMANE MEN'S](/assets/images/fw21-m.jpg){: width="350" }{: style="float: right"}
 ## MEN
 
 ### INFO
@@ -46,7 +46,7 @@ THE RAMONES WERE ALWAYS ONE OF MY FAVORITE BANDS – LOUD AND DUMB CAN ALSO BE C
 THE SOUNDTRACK IS AN EXCLUSIVE EXTENDED REMIX OF 'HELLRAP' BY GHOSTEMANE THAT SPEAKS TO THE MALE SUPPRESSED RAGE ON EVERY SIDE OF THE MORAL DIVIDE...
 
 ---
-{% imagesize /assets/images/fw21-w.gif:img?width=350 alt='FW21 GETHSEMANE WOMENS' %}{: style="float: right"}
+![FW21 GETHSEMANE WOMEN'S](/assets/images/fw21-w.gif){: width="350" }{: style="float: right"}
 ## WOMEN
 
 ### INFO

@@ -7,7 +7,7 @@ nav_order: 39
 
 # SS22 FOGACHINE
 
-{% imagesize /assets/images/ss22-m.gif:img?width=250 alt='SS22 FOGACHINE MENS' %}{: style="float: right"}
+![SS22 FOGACHINE MEN'S](/assets/images/ss22-m.gif){: width="250" }{: style="float: right"}
 ## MEN
 
 ### INFO
@@ -51,7 +51,7 @@ THE SOUNDTRACK IS A CUSTOM DERANGED MIX BY MOCHIPET — A DISTORTED HALLUCINOGEN
 
 ---
 
-{% imagesize /assets/images/ss22-w.png:img?width=250 alt='SS22 FOGACHINE WOMENS' %}{: style="float: right"}
+![SS22 FOGACHINE WOMEN'S](/assets/images/ss22-w.png){: width="250" }{: style="float: right"}
 ## WOMEN
 
 ### INFO
