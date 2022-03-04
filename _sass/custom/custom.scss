@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css?family=Inconsolata:400,600&display=swap");
-
 body {
-  letter-spacing: 0.2em;
+  letter-spacing: 0.17em;
+  @include fs-3;
 }
 
 .site-title {
   letter-spacing: 0.5em;
+  @include fs-5;
 }
 
 h1,
@@ -13,3 +13,49 @@ h1,
   letter-spacing: 0.2em;
 }
 
+.search-input {
+  color: $body-text-color;
+}
+
+img {
+  padding: 1em;
+}
+
+.main-content {
+  h2 {
+    position: relative;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+
+    &:first-child {
+      margin-top: $sp-2;
+    }
+
+    + table,
+    + .table-wrapper,
+    + .code-example,
+    + .highlighter-rouge {
+      margin-top: 1em;
+    }
+
+    + p {
+      margin-top: 0;
+    }
+  }
+}
+
+.site-footer {
+  @include container;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-top: $sp-4;
+  padding-bottom: $sp-4;
+  color: $grey-dk-000;
+  @include fs-1;
+
+  @include mq(md) {
+    position: static;
+    justify-self: end;
+  }
+}

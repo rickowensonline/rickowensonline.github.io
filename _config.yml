@@ -39,22 +39,27 @@ search:
 heading_anchors: true
 
 nav_sort: case_insensitive
-back_to_top: true
-back_to_top_text: "RETURN TO TOP"
+#back_to_top: true
+#back_to_top_text: "RETURN TO TOP"
 
 aux_links:
-#  "SOURCE":
-#    - "//github.com/rickowensonline/rickowensonline.github.io"
+#  "RICKOWENS.EU":
+#    - "//rickowens.eu/"
 
-# Footer content appears at the bottom of every page's main content
-footer_content: "OWENSWIKI | RUNNING ON <a href=\"https://github.com/jekyll/jekyll\">JEKYLL</a>/<a href=\"https://github.com/just-the-docs/just-the-docs\">JUSTTHEDOCS</a> | HOSTED ON <a href=\"https://github.com/rickowensonline/rickowensonline.github.io\">GITHUB PAGES</a>"
+gh_edit_link: true # show or hide edit this page link
+gh_edit_link_text: "EDIT THIS PAGE ON GITHUB"
+gh_edit_repository: "https://github.com/rickowensonline/rickowensonline.github.io/" # the github URL for your repo
+gh_edit_branch: "main" # the branch that your docs is served from
+# gh_edit_source: docs # the source that your files originate from
+gh_edit_view_mode: "edit" # "tree" or "edit" if you want the user to jump into the editor immediately
 
 last_edit_timestamp: true
-last_edit_time_format: "+%d %B %Y | %H:%M"
+last_edit_time_format: "+%d %B %Y | %HH%M"
 color_scheme: rick
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-image-size
 
 kramdown:
   syntax_highlighter_opts:
