@@ -2,6 +2,13 @@
 layout: default
 title: HOME
 permalink: /
+nav_order: 0
 ---
 
-{% include_relative docs/Home.md %}
+# HOME
+
+![RICK OWENS]({{ site.url }}/android-chrome-512x512.png)
+
+'THE ACT OF CREATION IS YOUR FIGHT FOR IMMORTALITY.' - RICK OWENS
+
+THIS SITE IS CURRENTLY A WORK IN PROGRESS. PLEASE CHECK BACK REGULARLY FOR MORE INFORMATION.

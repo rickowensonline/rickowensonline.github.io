@@ -21,3 +21,45 @@ $base-button-color: $davys-grey;
 $code-background-color: $eerie-black;
 $search-background-color: $eerie-black;
 $table-background-color: $eerie-black;
+
+$body-font-family: 'arial', source-sans-pro, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+// $nav-width: 300px;
+// $nav-width-md: 300px;
+
+$feedback-color: darken($sidebar-color, 3%);
+
+$body-line-height: 1.4;
+$content-line-height: 1.5;
+$body-heading-line-height: 1.75;
+
+//
+// Font size
+// `-sm` suffix is the size at the small (and above) media query
+//
+
+$root-font-size: 16px;
+$font-size-1: 9px;
+$font-size-1-sm: 10px;
+$font-size-2: 11px; //h4 - uppercased!, h6 not uppercased, text-small
+$font-size-3: 12px; //h5
+$font-size-4: 14px;
+$font-size-5: 16px; //h3
+$font-size-6: 20px; //h2
+$font-size-7: 28px;
+$font-size-8: 34px; //h1
+$font-size-9: 36px;
+$font-size-10: 42px;
+$font-size-10-sm: 48px;
+
+$gutter-spacing: $sp-6;
+$gutter-spacing-sm: $sp-4;
+$nav-width: 264px;
+$nav-width-md: 248px;
+$nav-list-item-height: $sp-6;
+$nav-list-item-height-sm: $sp-8;
+$nav-list-expander-right: true;
+$content-width: 1024px;
+$header-height: 60px;
+$search-results-width: $content-width - $nav-width;
+$transition-duration: 400ms;
