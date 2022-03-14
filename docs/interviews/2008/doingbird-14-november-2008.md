@@ -1,0 +1,15 @@
+---
+layout: default
+title: "DOINGBIRD #14 – NOVEMBER 2008"
+parent: 2008
+grand_parent: INTERVIEWS
+nav_order: 154
+---
+
+# DOINGBIRD #14 – NOVEMBER 2008
+## NOVEMBER 2008 
+
+<br><br></p>
+<p><b>TELL US ABOUT THE INSPIRATION BEHIND THE FOOTWEAR FOR THE SPRING 09 RICK OWENS COLLECTIONS.</b> <br />
+<br />
+

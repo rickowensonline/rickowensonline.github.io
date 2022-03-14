@@ -1,0 +1,51 @@
+---
+layout: default
+title: "NET-A-PORTER – DECEMBER 2009"
+parent: 2009
+grand_parent: INTERVIEWS
+nav_order: 125
+---
+
+# NET-A-PORTER – DECEMBER 2009
+## DECEMBER 2009
+
+<br><br></p>
+<p><b>WHEN DID YOU KNOW THAT YOU WANTED TO BE A FASHION DESIGNER?</b> <br />
+<br />
+WHEN I SAW MUGLER AND MONTANA DOING A HARD GLAMOUR IN THE LATE '70S, I SAW A WORLD I COULD RELATE TO. <br />
+<br />
+<b>WHAT INSPIRES AND MOTIVATES YOU?</b> <br />
+<br />
+ETERNAL HOPE. <br />
+<br />
+<b>YOUR FASHION MANTRA?</b> <br />
+<br />
+ORDER AND LOGIC WITH A MOMENT OF MADNESS. <br />
+<br />
+<b>WHO IS THE RICK OWENS WOMAN?</b> <br />
+<br />
+EVERY WOMAN. <br />
+<br />
+<b>DESCRIBE YOUR LATEST COLLECTION AND WHAT IT WAS INSPIRED BY.</b> <br />
+<br />
+CONTROL AND RELEASE OF CONTROL. <br />
+<br />
+<b>YOUR STYLING TIPS FOR WEARING RICK OWENS?</b> <br />
+<br />
+ADD AN OPEN HEART. <br />
+<br />
+<b>WHAT IS THE ONE PIECE YOU WOULD ADVISE WOMEN TO BUY FROM YOUR NEW COLLECTIONS AND WHY?</b> <br />
+<br />
+A GEOMETRIC JACKET. <br />
+<br />
+<b>WHO HAS BEEN THE STRONGEST INFLUENCE IN YOUR CAREER?</b> <br />
+<br />
+BRANCUSI. <br />
+<br />
+<b>WHO WOULD YOU LIKE TO SEE WEARING YOUR DESIGNS?</b> <br />
+<br />
+ANY WOMAN. <br />
+<br />
+<b>WHAT'S NEXT FOR RICK OWENS?</b> <br />
+<br />
+
