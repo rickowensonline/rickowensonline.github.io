@@ -65,7 +65,7 @@ OUTSIDE OF LUXOR, AT THE TEMPLE OF EDFU, OVER THE MAIN ENTRANCE, IS A CARVING OF
 - THURSDAY 29 SEPTEMBER 2022, 17H30 CET
 - PALAIS DE TOKYO, 13 AVENUE DU PRÉSIDENT WILSON, 75116 PARIS
 - GALLERY: [ [RICKOWENS.EU](https://www.rickowens.eu/en/IT/collections/women-edfu-ss23) ]
-- VIDEO: [ [VIMEO](https://vimeo.com/755221977) (LIVESTREAM) ] // [ [YOUTUBE](https://www.youtube.com/watch?v=Iq9__RyPgcQ) (LIVESTREAM) ]
+- VIDEO: [ [VIMEO](https://vimeo.com/755526785) ] // [ [YOUTUBE](https://www.youtube.com/watch?v=0Emj__KBiBc) ]
 
 ### CREDITS
 

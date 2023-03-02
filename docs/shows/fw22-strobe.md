@@ -64,6 +64,7 @@ BECAUSE DOESN'T EVERY GUY WANNA BE REMEMBERED AS A HEROIC WIZARD STANDING ON A C
 - THURSDAY 03 MARCH 2022, 18H00 CET
 - PALAIS DE TOKYO, 13 AVENUE DU PRÉSIDENT WILSON, 75116 PARIS
 - GALLERY: [ [RICKOWENS.EU](https://www.rickowens.eu/en/IT/collections/women-strobe-fw22) ]
+- VIDEO: [ [VIMEO](https://vimeo.com/685394485) ] // [ [YOUTUBE](https://www.youtube.com/watch?v=Kf67Z_vJ4Kc) ]
 
 ### CREDITS
 
