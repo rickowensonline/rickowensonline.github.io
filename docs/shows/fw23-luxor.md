@@ -62,7 +62,7 @@ THERE IS A BITTERNESS TO CREATING A COLLECTION DURING A WAR — A DESIRE TO CONT
 - THURSDAY 03 MARCH 2023, 17H30 CET
 - PALAIS DE TOKYO, 13 AVENUE DU PRÉSIDENT WILSON, 75116 PARIS
 - GALLERY: [ [RICKOWENS.EU](https://www.rickowens.eu/en/US/collections/women-luxor-fw23) ]
-- VIDEO: [ [YOUTUBE](https://www.youtube.com/watch?v=-myED5_VF7o) | [VIMEO](https://vimeo.com/804058726) ]
+- VIDEO: [ [VIMEO](https://vimeo.com/804058726) // [YOUTUBE](https://www.youtube.com/watch?v=-myED5_VF7o) ]
 
 ### CREDITS
 
