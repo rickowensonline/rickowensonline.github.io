@@ -5,7 +5,7 @@ parent: FASHION SHOWS
 nav_order: 43
 ---
 
-# SS24 EDFU
+# SS24 LIDO
 
 ![SS24 LIDO MEN'S](/assets/images/ss24-m.gif){: width="350" }{: style="float: right"}
 ## MEN
