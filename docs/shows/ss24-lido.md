@@ -57,7 +57,7 @@ I RECENTLY REALISED THAT FEW KNOW OUR LABELS HAVE BEEN HAND STAMPED IN OUR VILLA
 
 ---
 
-![SS24 LIDO WOMEN'S](/assets/images/ss24-w.jpg){: width="250" }{: style="float: right"}
+![SS24 LIDO WOMEN'S](/assets/images/ss24-w.gif){: width="250" }{: style="float: right"}
 ## WOMEN
 
 ### INFO
