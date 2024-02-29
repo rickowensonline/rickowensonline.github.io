@@ -15,7 +15,7 @@ nav_order: 43
 - THURSDAY 22 JUNE 2023, 12H30 CET
 - PALAIS DE TOKYO, 13 AVENUE DU PRÉSIDENT WILSON, 75116 PARIS
 - GALLERY: [ [RICKOWENS.EU](https://www.rickowens.eu/en/IT/collections/men-lido-ss24) ]
-- VIDEO: [ [VIMEO](https://vimeo.com/838652209) (LIVESTREAM) ] // [ [YOUTUBE](https://www.youtube.com/watch?v=GNnxSkTkOew) (LIVESTREAM) ]
+- VIDEO: [ [VIMEO](https://vimeo.com/839247307) ] // [ [YOUTUBE](https://www.youtube.com/watch?v=2g3ld7H6hN8) ]
 
 ### CREDITS
 
@@ -65,7 +65,7 @@ I RECENTLY REALISED THAT FEW KNOW OUR LABELS HAVE BEEN HAND STAMPED IN OUR VILLA
 - THURSDAY 28 SEPTEMBER 2023, 17H30 CET
 - PALAIS DE TOKYO, 13 AVENUE DU PRÉSIDENT WILSON, 75116 PARIS
 - GALLERY: [ [RICKOWENS.EU](https://www.rickowens.eu/en/IT/collections/women-lido-ss24) ]
-- VIDEO: [ [VIMEO (Livestream)](https://vimeo.com/869255229) ] // [ [YOUTUBE (Livestream)](https://www.youtube.com/watch?v=IAlMYHPbSTo) ]
+- VIDEO: [ [VIMEO](https://vimeo.com/869918712) ] // [ [YOUTUBE](https://www.youtube.com/watch?v=TOM1BPTNFA8) ]
 
 ### CREDITS
 

@@ -12,7 +12,7 @@ nav_order: 42
 
 ### INFO
 
-- THURSDAY 19 JAN 2023, 12H30 CET
+- THURSDAY 19 JANUARY 2023, 12H30 CET
 - PALAIS DE TOKYO, 13 AVENUE DU PRÉSIDENT WILSON, 75116 PARIS
 - GALLERY: [ [RICKOWENS.EU](https://www.rickowens.eu/en/IT/collections/men-luxor-fw23) ]
 - VIDEO: [ [VIMEO](https://vimeo.com/791795311) ] // [ [YOUTUBE](https://www.youtube.com/watch?v=UZr1bcJz01I) ]
